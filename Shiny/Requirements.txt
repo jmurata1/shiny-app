@@ -1,0 +1,7 @@
+mathplotlib
+shiny
+numpy
+pandas
+altair
+shinywidgets
+python_version = "3.11.1"
