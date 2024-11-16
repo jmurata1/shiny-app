@@ -1,7 +1,10 @@
-mathplotlib
+matplotlib
 shiny
 numpy
 pandas
 altair
 shinywidgets
+anywidget
+jsonschema
+joblib
 python_version = "3.11.1"
