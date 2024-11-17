@@ -29,7 +29,7 @@ A web application built using Python Shiny deployed on AWS EC2 to showcase house
     Best School Rating (within 1 mile)
     Distance to Coast
 
-## Visualizations
+## Visualizations in Shiny App
     Interactive California map showing house locations
     Color-coded pricing visualization
     Feature distribution histograms
