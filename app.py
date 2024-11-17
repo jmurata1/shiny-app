@@ -216,8 +216,8 @@ def make_prediction(model, input_data):
     return model.predict(input_df)[0]
 
 # Load data and model
-df = pd.read_csv("/Users/jaydenmurata/Desktop/shiny-app/Shiny/all_data.csv")
-best_model = joblib.load("/Users/jaydenmurata/Desktop/shiny-app/Shiny/house_price_model.joblib")
+df = pd.read_csv("all_data.csv")
+best_model = joblib.load("house_price_model.joblib")
 
 # UI Setup
 ui.tags.head(ui.tags.style(CSS_STYLES))
