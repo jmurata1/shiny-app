@@ -35,6 +35,19 @@ A web application built using Python Shiny deployed on AWS EC2 to showcase house
     Feature distribution histograms
     Feature importance chart
 
+## Shiny App Setup
+    sudo apt install git
+    sudo apt install python3
+    sudo apt install python3-pip
+    sudo apt install python3-venv
+    git clone https://github.com/jmurata1/shiny-app.git
+
+## Python Virtual Environment
+    python3 -m venv shinyvenv
+    source shinyvenv/bin/activate
+    pip install -r Requirements.txt
+    sudo ln -s /home/ubuntu/shiny-app /srv/shiny-server/shiny-app
+
 ## Configuration File
 run_as ubuntu;
 
