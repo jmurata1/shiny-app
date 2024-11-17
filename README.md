@@ -8,32 +8,32 @@ A web application built using Python Shiny deployed on AWS EC2 to showcase house
  IP Address: 3.15.206.34
 
 ## Structure
- shiny-app/
- ├── app.py                   # Main application file
- ├── shinyvenv/               # Virtual environment
- ├── requirements.txt         # Python dependencies
- ├── shinykey.pem             # Key
- ├── all_data.csv             # Cleaned data
- ├── house_price_model.joblib # Gradient Boosting Regressor
- └── README.md                # Documentation
+shiny-app/
+├── app.py              # Main application file
+├── shinyvenv/          # Virtual environment
+├── requirements.txt    # Python dependencies
+├── shinykey.pem       # AWS key file
+├── all_data.csv       # Cleaned dataset
+├── house_price_model.joblib  # Trained model
+└── README.md          # Documentation
 
 ## Price Prediction in Shiny App
   Interactive sliders for adjusting house features:
-    Living Area (sq ft)
-    Years Since Built
-    Gas Station Count (within 2 miles)
-    Golf Course Count (within 2 miles)
-    Average Bar Rating (within 0.5 miles)
-    Household Income (by zipcode)
-    Distance to Trader Joe's
-    Best School Rating (within 1 mile)
-    Distance to Coast
+    - **livingArea**: Total living area of the property in sq ft.
+    - **years_since_built**: Number of years since the property was built.
+    - **GasStation_Count**: Count of gas stations within a 2-mile radius.
+    - **GolfCourse_Count**: Count of golf courses within a 2-mile radius.
+    - **average_bar_rating**: Average rating of bars in a 0.5-mile radius.
+    - **household_income**: Median household income for the property's zipcode.
+    - **TraderJoes_distance**: Distance to the nearest Trader Joe's.
+    - **best_school_rating**: Highest rating of an elementary school within 1-mile radius.
+    - **coast_distance**: Distance to the nearest coastline.
 
 ## Visualizations in Shiny App
-    Interactive California map showing house locations
-    Color-coded pricing visualization
-    Feature distribution histograms
-    Feature importance chart
+    - Interactive California map showing house locations
+    - Color-coded pricing visualization
+    - Feature distribution histograms
+    - Feature importance chart
 
 ## Shiny App Setup
     sudo apt install git
