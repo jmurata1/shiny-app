@@ -7,4 +7,5 @@ shinywidgets
 anywidget
 jsonschema
 joblib
+sklearn
 
